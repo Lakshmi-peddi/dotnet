@@ -1,0 +1,6 @@
+E:\DotNet\ConsoleFindouts\GameApp\bin\Debug\GameApp.exe.config
+E:\DotNet\ConsoleFindouts\GameApp\bin\Debug\GameApp.exe
+E:\DotNet\ConsoleFindouts\GameApp\bin\Debug\GameApp.pdb
+E:\DotNet\ConsoleFindouts\GameApp\obj\Debug\GameApp.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\GameApp\obj\Debug\GameApp.exe
+E:\DotNet\ConsoleFindouts\GameApp\obj\Debug\GameApp.pdb

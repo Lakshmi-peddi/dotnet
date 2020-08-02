@@ -1,0 +1,2 @@
+E:\DotNet\ConsoleFindouts\ConsoleAccess\obj\Debug\ConsoleAccess.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\ConsoleAccess\obj\Debug\ConsoleAccess.csproj.CoreCompileInputs.cache

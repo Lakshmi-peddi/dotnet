@@ -1,0 +1,6 @@
+E:\DotNet\ConsoleFindouts\Samples\obj\Debug\Samples.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Samples\obj\Debug\Samples.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Samples\bin\Debug\Samples.dll
+E:\DotNet\ConsoleFindouts\Samples\bin\Debug\Samples.pdb
+E:\DotNet\ConsoleFindouts\Samples\obj\Debug\Samples.dll
+E:\DotNet\ConsoleFindouts\Samples\obj\Debug\Samples.pdb

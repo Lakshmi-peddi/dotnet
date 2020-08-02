@@ -1,7 +1,0 @@
-E:\DotNet\ConsoleFindouts\ConsolePractice\bin\Debug\ConsolePractice.exe.config
-E:\DotNet\ConsoleFindouts\ConsolePractice\bin\Debug\ConsolePractice.exe
-E:\DotNet\ConsoleFindouts\ConsolePractice\bin\Debug\ConsolePractice.pdb
-E:\DotNet\ConsoleFindouts\ConsolePractice\obj\Debug\ConsolePractice.csprojAssemblyReference.cache
-E:\DotNet\ConsoleFindouts\ConsolePractice\obj\Debug\ConsolePractice.csproj.CoreCompileInputs.cache
-E:\DotNet\ConsoleFindouts\ConsolePractice\obj\Debug\ConsolePractice.exe
-E:\DotNet\ConsoleFindouts\ConsolePractice\obj\Debug\ConsolePractice.pdb

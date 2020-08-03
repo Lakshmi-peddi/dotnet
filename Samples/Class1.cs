@@ -8,93 +8,86 @@ namespace Samples
 {
     public enum VehType
     {
-        car,
-        bus,
-        truck
+        Car,
+        Truck,
+        Bus
     };
     public enum FuelType
     {
-        diesel,
-        petrol,
-        cng
+        Diesel,
+        Petrol,
+        CNG
     };
-
-
-
 
     public class Vehicle
     {
 
         string name;
-        string color;
-        int noOfWheels;
-        VehType vehType;
-        FuelType fuel;
-        public Vehicle(string name, string color, VehType veh, int noOfWheels, FuelType fuel)
-        {
-            this.Name = name;
-            this.Color = color;
-            this.NoOfWheel = noOfWheels;
-            this.VehTypes = veh;
-            this.FuelTypes = fuel;
-
-
-
-
-        }
-
-        public void Start(VehType vehicletype)
-        {
-            Console.WriteLine(vehicletype + " has started");
-        }
-        public void Stop(VehType vehicletype)
-        {
-            Console.WriteLine(vehicletype + "has stopped");
-        }
-     
-        public Vehicle(string name, string color, VehType veh, int noOfWheels)
-        {
-            this.Name = name;
-            this.Color = color;
-            this.NoOfWheel = noOfWheels;
-            this.VehTypes = veh;
-            this.FuelTypes = FuelType.petrol;
-        }
-        public Vehicle(string name, string color)
-        {
-            this.Name = name;
-            this.Color = color;
-            this.VehTypes = VehType.car;
-            this.NoOfWheel = 4;
-            this.FuelTypes = FuelType.petrol;
-        }
         public string Name
         {
             get { return name; }
             set { name = value; }
         }
+        string color;
         public string Color
         {
-            get { return this.color; }
-            set { this.color = value; }
+            get { return color; }
+            set { color = value; }
         }
-        public int NoOfWheel
+        
+        VehType vtype;
+        public VehType Vtype
         {
-            get { return this.noOfWheels; }
-            set { this.noOfWheels = value; }
+            get { return this.vtype; }
+            set { this.vtype = value; }
         }
-
-
-
-        public VehType VehTypes
+        int noOfWheels;
+        public int NoOfWheels
         {
-            get { return this.vehType; }
-            set { this.vehType = value; }
+            get { return noOfWheels; }
+            set { noOfWheels = value; }
         }
-        public FuelType FuelTypes
+        FuelType fType;
+        public FuelType FType
         {
-            get { return this.fuel; }
-            set { this.fuel = value; }
+            get { return fType; }
+            set { fType = value; }
+        }
+        string make;
+        public string Make
+        {
+            get { return make; }
+            set { make = value; }
+        }
+        public Vehicle(string name, string color, VehType vtype, int noOfWheels, FuelType ftype, string make)
+        {
+            this.name = name;
+            this.color = color;
+            this.vtype = vtype;
+            this.noOfWheels = noOfWheels;
+            this.fType = ftype;
+            
+        }
+        public Vehicle(string name, string color, VehType vehType, int noOfWheels):this(name,color,vehType,noOfWheels,FuelType.Petrol,"Tata")
+        {
+            this.name = name;
+            this.color = color;
+            this.vtype = vehType;
+            this.noOfWheels = noOfWheels;
+
+        }
+        public Vehicle(String name,string color):this(name,color,VehType.Car,4,FuelType.Petrol,"Tata")
+        {
+            this.name = name;
+            this.color = color;
+        }
+        public void Start()
+        {
+            Console.WriteLine("{0} {1} {2} has started",name,vtype.ToString(),vtype.ToString());
+        }
+        public void Stop()
+        {
+            Console.WriteLine("{0} {1} {2} has stopped", name, vtype.ToString(), vtype.ToString());
         }
 
     }

@@ -12,16 +12,17 @@ namespace VehicleApp
         static void Main(string[] args)
         {
             Vehicle car = new Vehicle("Cielo", "red"); 
-            car.Start(car.VehTypes);
-            //car.Stop(car.VehTypes);
+            car.Start();
+            car.Stop();
 
-            Vehicle truck = new Vehicle("Tata", "blue", VehType.truck, 6, FuelType.diesel);
-            truck.Start(truck.VehTypes); 
-            //truck.Stop(truck.VehTypes);
+            Vehicle truck = new Vehicle("Tata", "blue", VehType.Truck, 6, FuelType.Diesel,"Tata");
+            truck.Start(); 
+            truck.Stop();
 
-            Vehicle smallcar = new Vehicle("Indica", "silver", VehType.car, 4); 
-            smallcar.Start(smallcar.VehTypes);
-            //smallcar.Stop(smallcar.VehTypes);
+            Vehicle smallcar = new Vehicle("Indica", "silver", VehType.Car, 4); 
+            smallcar.Start();
+            smallcar.Stop();
+            Console.Read();
         }
     }
 }

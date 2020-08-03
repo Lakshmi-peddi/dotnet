@@ -30,15 +30,6 @@ namespace Samples
         int noOfWheels;
         VehType vehType;
         FuelType fuel;
-
-        public void Start(VehType vehicletype)
-        {
-            Console.WriteLine(vehicletype + " has started");
-        }
-        public void Stop(VehType vehicletype)
-        {
-            Console.WriteLine(vehicletype + "has stopped");
-        }
         public Vehicle(string name, string color, VehType veh, int noOfWheels, FuelType fuel)
         {
             this.Name = name;
@@ -51,6 +42,16 @@ namespace Samples
 
 
         }
+
+        public void Start(VehType vehicletype)
+        {
+            Console.WriteLine(vehicletype + " has started");
+        }
+        public void Stop(VehType vehicletype)
+        {
+            Console.WriteLine(vehicletype + "has stopped");
+        }
+     
         public Vehicle(string name, string color, VehType veh, int noOfWheels)
         {
             this.Name = name;
@@ -96,14 +97,5 @@ namespace Samples
             set { this.fuel = value; }
         }
 
-
-
-
-        public static void Main()
-        {
-
-
-
-        }
     }
 }

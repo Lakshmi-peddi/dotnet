@@ -1,0 +1,7 @@
+E:\DotNet\ClassAssignments\ConsoleShapes\bin\Debug\ConsoleShapes.exe.config
+E:\DotNet\ClassAssignments\ConsoleShapes\bin\Debug\ConsoleShapes.exe
+E:\DotNet\ClassAssignments\ConsoleShapes\bin\Debug\ConsoleShapes.pdb
+E:\DotNet\ClassAssignments\ConsoleShapes\obj\Debug\ConsoleShapes.csprojAssemblyReference.cache
+E:\DotNet\ClassAssignments\ConsoleShapes\obj\Debug\ConsoleShapes.csproj.CoreCompileInputs.cache
+E:\DotNet\ClassAssignments\ConsoleShapes\obj\Debug\ConsoleShapes.exe
+E:\DotNet\ClassAssignments\ConsoleShapes\obj\Debug\ConsoleShapes.pdb

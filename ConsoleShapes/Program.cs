@@ -6,127 +6,156 @@ using System.Threading.Tasks;
 
 namespace ConsoleShapes
 {
-    interface IVolume
-    {
-        double Volume { get; }
+    interface IVolume {
+       
+        //read-only property 
+        double Volume { get;  }
     }
-    interface IArea
-    {
+
+    interface IArea {
         double SurfaceArea();
     }
 
-    interface ISolid : IArea, IVolume
-    {
-
+    interface ISolid : IArea, IVolume { 
+    
     }
-    abstract class Solid : ISolid
-    {
+
+    abstract class ClassSolid:ISolid {
+       
         double radius;
-        const double pi = 3.142;
-        public double Radius
+        const double pi=3.142;
+        
+        
+        public abstract double Volume { get; set; }
+        
+         
+        public abstract double SurfaceArea();
+        
+        
+        public ClassSolid()
         {
-            get { return radius; }
+            
+        }
+
+        public ClassSolid(double Radius)
+        {
+            radius = Radius;
+        }
+
+        
+
+        
+        public double Radius 
+        { 
+            get { return radius; } 
             set { radius = value; }
         }
-        public double Pi
+
+        public double Pi 
         {
-            get { return pi; }
-
+            get { return pi;} 
         }
-
-        public Solid()
-        {
-
-        }
-        public Solid(double _radius, double _pi)
-
-        {
-            radius = _radius;
-
-        }
-        
-        public abstract double Volume
-        {
-            get;
-        }
-
-        
-        public abstract double SurfaceArea();
-
-
 
     }
-    class Cylinder : Solid
+
+    
+
+    class Cylinder : ClassSolid
     {
         double height;
-        
+
         public Cylinder()
         {
 
         }
-        public Cylinder(double _height, double _radius, double _pi) : base(_radius, _pi)
+
+        public Cylinder(double Radius , double _height): base(Radius)
         {
             height = _height;
-
         }
 
-        public override double Volume
+        public override  double Volume 
         {
-            get
-            {
-                double volume = Pi * Radius * height;
-                return volume;
+            
+            get {
+                return Pi * Radius * Radius * height;
             }
 
+            set {
+              
+                Volume = value;
+            }
         }
+
         public override double SurfaceArea()
         {
-            double surfaceArea = 2 * Pi * Radius * (Radius + height);
-            return surfaceArea;
+            
+            double _SurfaceArea = 2 * Pi * Radius * (Radius* height);
+            return _SurfaceArea;
         }
+
+        public void Show(double rad , double ht)
+        {
+            Radius = rad;
+            height = ht;
+            SurfaceArea();
+            Console.WriteLine("Volume of              Cylinder:   {0}", Volume);
+            Console.WriteLine("Surface Area of        Cylinder:   {0}", SurfaceArea());
+            Console.WriteLine("-----------------------------------------------------------------");
+        }
+
     }
-    class Sphere : Solid
+
+    class Sphere : ClassSolid
     {
         public Sphere()
         {
 
         }
-        public Sphere(double _radius, double _pi) : base(_radius, _pi)
+        public Sphere(double Radius):base(Radius)
         {
 
-        }
-        public override double SurfaceArea()
-        {
-            double surfaceArea = 4 / 3 * Pi * Radius * Radius * Radius;
-            return surfaceArea;
         }
         public override double Volume
         {
             get
             {
-                double volume = 4 * Pi * Radius * Radius;
-
-                return volume;
+                return 4 * Pi * Radius * Radius;
             }
 
+            set
+            {
+                Volume = value ;
+            }
         }
+
+        public override double SurfaceArea()
+        {
+            double SurfaceArea = (4 / 3) * Pi * Radius * Radius * Radius;
+            return SurfaceArea;
+        }
+
+        public void Show(double rad)
+        {
+            Radius = rad;
+            SurfaceArea();
+            Console.WriteLine("Volume of              Sphere:   {0}", Volume);
+            Console.WriteLine("Surface Area of        Sphere:   {0}", SurfaceArea());
+            Console.WriteLine("-----------------------------------------------------------------");
+        }
+
     }
+
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Cylinder cd = new Cylinder(5.6, 3.2, 3.14);
-            //cd.SurfaceArea();
-            Console.WriteLine("Surface Volume of Cylinder : {0}", cd.Volume);
-            Console.WriteLine("Surface area  of Cylinder:{0}", cd.SurfaceArea());
-            Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
-            Sphere Sp = new Sphere(3.2, 3.14);
-            Console.WriteLine("Surface Volume of Sphere :{0}", Sp.Volume);
-            Console.WriteLine("Surface area of Sphere : {0}", Sp.SurfaceArea());
-            Console.WriteLine("------------------------------------------------------------------------------------------------------------------");
-
-
+            
+            Cylinder cylinderObj = new Cylinder();
+            cylinderObj.Show(1,2);
+            Sphere sphereObj = new Sphere();
+            sphereObj.Show(3);
         }
     }
 }

@@ -5,3 +5,10 @@ E:\DotNet\ClassAssignments\ConsoleShapes\obj\Debug\ConsoleShapes.csprojAssemblyR
 E:\DotNet\ClassAssignments\ConsoleShapes\obj\Debug\ConsoleShapes.csproj.CoreCompileInputs.cache
 E:\DotNet\ClassAssignments\ConsoleShapes\obj\Debug\ConsoleShapes.exe
 E:\DotNet\ClassAssignments\ConsoleShapes\obj\Debug\ConsoleShapes.pdb
+E:\DotNet\ConsoleFindouts\ConsoleShapes\bin\Debug\ConsoleShapes.exe.config
+E:\DotNet\ConsoleFindouts\ConsoleShapes\bin\Debug\ConsoleShapes.exe
+E:\DotNet\ConsoleFindouts\ConsoleShapes\bin\Debug\ConsoleShapes.pdb
+E:\DotNet\ConsoleFindouts\ConsoleShapes\obj\Debug\ConsoleShapes.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\ConsoleShapes\obj\Debug\ConsoleShapes.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\ConsoleShapes\obj\Debug\ConsoleShapes.exe
+E:\DotNet\ConsoleFindouts\ConsoleShapes\obj\Debug\ConsoleShapes.pdb

@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFindouts\ConsoleSortedList\bin\Debug\ConsoleSortedList.exe.config
+E:\DotNet\ConsoleFindouts\ConsoleSortedList\bin\Debug\ConsoleSortedList.exe
+E:\DotNet\ConsoleFindouts\ConsoleSortedList\bin\Debug\ConsoleSortedList.pdb
+E:\DotNet\ConsoleFindouts\ConsoleSortedList\obj\Debug\ConsoleSortedList.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\ConsoleSortedList\obj\Debug\ConsoleSortedList.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\ConsoleSortedList\obj\Debug\ConsoleSortedList.exe
+E:\DotNet\ConsoleFindouts\ConsoleSortedList\obj\Debug\ConsoleSortedList.pdb

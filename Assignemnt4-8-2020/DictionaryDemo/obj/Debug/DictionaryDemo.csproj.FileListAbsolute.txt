@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFindouts\DictionaryDemo\bin\Debug\DictionaryDemo.exe.config
+E:\DotNet\ConsoleFindouts\DictionaryDemo\bin\Debug\DictionaryDemo.exe
+E:\DotNet\ConsoleFindouts\DictionaryDemo\bin\Debug\DictionaryDemo.pdb
+E:\DotNet\ConsoleFindouts\DictionaryDemo\obj\Debug\DictionaryDemo.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\DictionaryDemo\obj\Debug\DictionaryDemo.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\DictionaryDemo\obj\Debug\DictionaryDemo.exe
+E:\DotNet\ConsoleFindouts\DictionaryDemo\obj\Debug\DictionaryDemo.pdb

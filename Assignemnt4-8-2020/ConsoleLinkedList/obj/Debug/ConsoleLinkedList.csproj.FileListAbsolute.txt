@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFindouts\ConsoleLinkedList\bin\Debug\ConsoleLinkedList.exe.config
+E:\DotNet\ConsoleFindouts\ConsoleLinkedList\bin\Debug\ConsoleLinkedList.exe
+E:\DotNet\ConsoleFindouts\ConsoleLinkedList\bin\Debug\ConsoleLinkedList.pdb
+E:\DotNet\ConsoleFindouts\ConsoleLinkedList\obj\Debug\ConsoleLinkedList.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\ConsoleLinkedList\obj\Debug\ConsoleLinkedList.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\ConsoleLinkedList\obj\Debug\ConsoleLinkedList.exe
+E:\DotNet\ConsoleFindouts\ConsoleLinkedList\obj\Debug\ConsoleLinkedList.pdb

@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFindouts\ConsoleList\bin\Debug\ConsoleList.exe.config
+E:\DotNet\ConsoleFindouts\ConsoleList\bin\Debug\ConsoleList.exe
+E:\DotNet\ConsoleFindouts\ConsoleList\bin\Debug\ConsoleList.pdb
+E:\DotNet\ConsoleFindouts\ConsoleList\obj\Debug\ConsoleList.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\ConsoleList\obj\Debug\ConsoleList.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\ConsoleList\obj\Debug\ConsoleList.exe
+E:\DotNet\ConsoleFindouts\ConsoleList\obj\Debug\ConsoleList.pdb

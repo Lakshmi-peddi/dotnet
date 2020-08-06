@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFirstApp\ConFileHandling\bin\Debug\ConFileHandling.exe.config
+E:\DotNet\ConsoleFirstApp\ConFileHandling\bin\Debug\ConFileHandling.exe
+E:\DotNet\ConsoleFirstApp\ConFileHandling\bin\Debug\ConFileHandling.pdb
+E:\DotNet\ConsoleFirstApp\ConFileHandling\obj\Debug\ConFileHandling.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFirstApp\ConFileHandling\obj\Debug\ConFileHandling.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFirstApp\ConFileHandling\obj\Debug\ConFileHandling.exe
+E:\DotNet\ConsoleFirstApp\ConFileHandling\obj\Debug\ConFileHandling.pdb

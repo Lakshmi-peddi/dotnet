@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFirstApp\ConsoleLinqSamples\bin\Debug\ConsoleLinqSamples.exe.config
+E:\DotNet\ConsoleFirstApp\ConsoleLinqSamples\bin\Debug\ConsoleLinqSamples.exe
+E:\DotNet\ConsoleFirstApp\ConsoleLinqSamples\bin\Debug\ConsoleLinqSamples.pdb
+E:\DotNet\ConsoleFirstApp\ConsoleLinqSamples\obj\Debug\ConsoleLinqSamples.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFirstApp\ConsoleLinqSamples\obj\Debug\ConsoleLinqSamples.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFirstApp\ConsoleLinqSamples\obj\Debug\ConsoleLinqSamples.exe
+E:\DotNet\ConsoleFirstApp\ConsoleLinqSamples\obj\Debug\ConsoleLinqSamples.pdb

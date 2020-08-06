@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\HybridDictionary\bin\Debug\HybridDictionary.exe.config
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\HybridDictionary\bin\Debug\HybridDictionary.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\HybridDictionary\bin\Debug\HybridDictionary.pdb
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\HybridDictionary\obj\Debug\HybridDictionary.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\HybridDictionary\obj\Debug\HybridDictionary.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\HybridDictionary\obj\Debug\HybridDictionary.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\HybridDictionary\obj\Debug\HybridDictionary.pdb

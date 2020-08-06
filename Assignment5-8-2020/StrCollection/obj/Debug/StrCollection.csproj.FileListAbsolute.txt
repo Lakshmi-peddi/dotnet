@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrCollection\bin\Debug\StrCollection.exe.config
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrCollection\bin\Debug\StrCollection.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrCollection\bin\Debug\StrCollection.pdb
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrCollection\obj\Debug\StrCollection.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrCollection\obj\Debug\StrCollection.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrCollection\obj\Debug\StrCollection.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrCollection\obj\Debug\StrCollection.pdb

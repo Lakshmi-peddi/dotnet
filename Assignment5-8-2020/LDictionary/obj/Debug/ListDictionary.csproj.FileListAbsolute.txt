@@ -1,0 +1,14 @@
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\ListDictionary\bin\Debug\ListDictionary.exe.config
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\ListDictionary\bin\Debug\ListDictionary.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\ListDictionary\bin\Debug\ListDictionary.pdb
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\ListDictionary\obj\Debug\ListDictionary.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\ListDictionary\obj\Debug\ListDictionary.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\ListDictionary\obj\Debug\ListDictionary.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\ListDictionary\obj\Debug\ListDictionary.pdb
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\LDictionary\bin\Debug\ListDictionary.exe.config
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\LDictionary\bin\Debug\ListDictionary.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\LDictionary\bin\Debug\ListDictionary.pdb
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\LDictionary\obj\Debug\ListDictionary.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\LDictionary\obj\Debug\ListDictionary.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\LDictionary\obj\Debug\ListDictionary.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\LDictionary\obj\Debug\ListDictionary.pdb

@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrEnumerator\bin\Debug\StrEnumerator.exe.config
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrEnumerator\bin\Debug\StrEnumerator.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrEnumerator\bin\Debug\StrEnumerator.pdb
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrEnumerator\obj\Debug\StrEnumerator.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrEnumerator\obj\Debug\StrEnumerator.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrEnumerator\obj\Debug\StrEnumerator.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrEnumerator\obj\Debug\StrEnumerator.pdb

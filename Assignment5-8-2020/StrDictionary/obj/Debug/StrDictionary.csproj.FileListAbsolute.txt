@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrDictionary\bin\Debug\StrDictionary.exe.config
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrDictionary\bin\Debug\StrDictionary.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrDictionary\bin\Debug\StrDictionary.pdb
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrDictionary\obj\Debug\StrDictionary.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrDictionary\obj\Debug\StrDictionary.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrDictionary\obj\Debug\StrDictionary.exe
+E:\DotNet\ConsoleFindouts\Assignment5-8-2020\StrDictionary\obj\Debug\StrDictionary.pdb

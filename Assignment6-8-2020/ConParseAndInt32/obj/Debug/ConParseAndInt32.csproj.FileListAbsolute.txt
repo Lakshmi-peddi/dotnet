@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFindouts\Assignment6-8-2020\ConParseAndInt32\bin\Debug\ConParseAndInt32.exe.config
+E:\DotNet\ConsoleFindouts\Assignment6-8-2020\ConParseAndInt32\bin\Debug\ConParseAndInt32.exe
+E:\DotNet\ConsoleFindouts\Assignment6-8-2020\ConParseAndInt32\bin\Debug\ConParseAndInt32.pdb
+E:\DotNet\ConsoleFindouts\Assignment6-8-2020\ConParseAndInt32\obj\Debug\ConParseAndInt32.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Assignment6-8-2020\ConParseAndInt32\obj\Debug\ConParseAndInt32.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment6-8-2020\ConParseAndInt32\obj\Debug\ConParseAndInt32.exe
+E:\DotNet\ConsoleFindouts\Assignment6-8-2020\ConParseAndInt32\obj\Debug\ConParseAndInt32.pdb

@@ -1,0 +1,6 @@
+E:\DotNet\ConsoleFindouts\Assignment7-8-2020\FilesAssignment\obj\Debug\FilesAssignment.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment7-8-2020\FilesAssignment\bin\Debug\FilesAssignment.exe.config
+E:\DotNet\ConsoleFindouts\Assignment7-8-2020\FilesAssignment\bin\Debug\FilesAssignment.exe
+E:\DotNet\ConsoleFindouts\Assignment7-8-2020\FilesAssignment\bin\Debug\FilesAssignment.pdb
+E:\DotNet\ConsoleFindouts\Assignment7-8-2020\FilesAssignment\obj\Debug\FilesAssignment.exe
+E:\DotNet\ConsoleFindouts\Assignment7-8-2020\FilesAssignment\obj\Debug\FilesAssignment.pdb

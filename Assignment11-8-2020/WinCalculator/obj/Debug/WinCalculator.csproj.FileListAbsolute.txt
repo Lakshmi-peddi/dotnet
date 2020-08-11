@@ -1,0 +1,13 @@
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\bin\Debug\WinCalculator.exe.config
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\bin\Debug\WinCalculator.exe
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\bin\Debug\WinCalculator.pdb
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\bin\Debug\CalculatorLib.dll
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\bin\Debug\CalculatorLib.pdb
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\obj\Debug\WinCalculator.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\obj\Debug\WinCalculator.Form1.resources
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\obj\Debug\WinCalculator.Properties.Resources.resources
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\obj\Debug\WinCalculator.csproj.GenerateResource.cache
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\obj\Debug\WinCalculator.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\obj\Debug\WinCalculator.csproj.CopyComplete
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\obj\Debug\WinCalculator.exe
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\WinCalculator\obj\Debug\WinCalculator.pdb

@@ -1,0 +1,10 @@
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorSerialization\bin\Debug\CalculatorSerialization.exe.config
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorSerialization\bin\Debug\CalculatorSerialization.exe
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorSerialization\bin\Debug\CalculatorSerialization.pdb
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorSerialization\bin\Debug\CalculatorLib.dll
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorSerialization\bin\Debug\CalculatorLib.pdb
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorSerialization\obj\Debug\CalculatorSerialization.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorSerialization\obj\Debug\CalculatorSerialization.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorSerialization\obj\Debug\CalculatorSerialization.csproj.CopyComplete
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorSerialization\obj\Debug\CalculatorSerialization.exe
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorSerialization\obj\Debug\CalculatorSerialization.pdb

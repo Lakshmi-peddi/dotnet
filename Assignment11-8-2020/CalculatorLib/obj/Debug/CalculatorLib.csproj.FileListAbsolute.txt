@@ -1,0 +1,6 @@
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorLib\bin\Debug\CalculatorLib.dll
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorLib\bin\Debug\CalculatorLib.pdb
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorLib\obj\Debug\CalculatorLib.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorLib\obj\Debug\CalculatorLib.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorLib\obj\Debug\CalculatorLib.dll
+E:\DotNet\ConsoleFindouts\Assignment11-8-2020\CalculatorLib\obj\Debug\CalculatorLib.pdb

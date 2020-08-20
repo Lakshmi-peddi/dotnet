@@ -1,0 +1,24 @@
+﻿@model IEnumerable<MovieCustomerMvcAppWithAuth.Models.Movie>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Movies</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Movie Name</th>
+            <th>Genre</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@Html.ActionLink(c.Name, "Index", "Movies", new { id = c.Id }, null)</td>
+                <td>@Html.ActionLink(c.Genre, "Index", "Movies", new { id = c.Id }, null)</td>
+            </tr>
+        }
+    </tbody>
+</table>

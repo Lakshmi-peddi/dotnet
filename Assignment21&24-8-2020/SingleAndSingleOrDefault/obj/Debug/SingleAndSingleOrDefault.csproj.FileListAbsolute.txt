@@ -1,0 +1,7 @@
+E:\DotNet\ConsoleFindouts\Assignment21&24-8-2020\SingleAndSingleOrDefault\bin\Debug\SingleAndSingleOrDefault.exe.config
+E:\DotNet\ConsoleFindouts\Assignment21&24-8-2020\SingleAndSingleOrDefault\bin\Debug\SingleAndSingleOrDefault.exe
+E:\DotNet\ConsoleFindouts\Assignment21&24-8-2020\SingleAndSingleOrDefault\bin\Debug\SingleAndSingleOrDefault.pdb
+E:\DotNet\ConsoleFindouts\Assignment21&24-8-2020\SingleAndSingleOrDefault\obj\Debug\SingleAndSingleOrDefault.csprojAssemblyReference.cache
+E:\DotNet\ConsoleFindouts\Assignment21&24-8-2020\SingleAndSingleOrDefault\obj\Debug\SingleAndSingleOrDefault.csproj.CoreCompileInputs.cache
+E:\DotNet\ConsoleFindouts\Assignment21&24-8-2020\SingleAndSingleOrDefault\obj\Debug\SingleAndSingleOrDefault.exe
+E:\DotNet\ConsoleFindouts\Assignment21&24-8-2020\SingleAndSingleOrDefault\obj\Debug\SingleAndSingleOrDefault.pdb

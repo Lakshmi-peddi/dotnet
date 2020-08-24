@@ -1,0 +1,12 @@
+﻿@model MovieCustomerMvcAppWithAuth.Models.Customer
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Model.Name</h2>
+<p>@Model.DOB.ToString()</p>
+<p>MembershipType:@Model.MembershipType.DiscountRate%</p>
+@Html.CheckBoxFor(c=>c.IsSubscribedToNewsLetter)
+<div>
+    @Html.ActionLink("Back", "Index", "Customers", null, new { @class="btn btn-primary"})
+</div>

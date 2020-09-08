@@ -25,11 +25,15 @@ namespace SingleAndSingleOrDefault
         };
             var res = employeeList.Single(e => e.Id == 102);
             var res1= employeeList.Single(e => e.Name == "Lakshmi");
+            //Console.WriteLine("{0}",res);
+            //Console.WriteLine("{0}", res1);
             IList<int> intList = new List<int> { 2 };
             var res2 = intList.Single();
             var res3 = employeeList.SingleOrDefault(e => e.Name == "Mouni");
             var res4 = employeeList.SingleOrDefault(e => e.Name == "Hema");
             var res5 = employeeList.SingleOrDefault(e => e.Id == 103);
+            //Console.WriteLine("{0}", res3);
+            //Console.WriteLine("{0}", res4);
             Console.Read();
         }
     }

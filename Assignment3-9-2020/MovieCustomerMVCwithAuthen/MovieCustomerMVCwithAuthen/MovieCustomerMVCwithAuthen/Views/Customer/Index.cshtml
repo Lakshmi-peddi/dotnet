@@ -1,0 +1,72 @@
+﻿@model IEnumerable<MovieCustomerMVCwithAuthen.Models.Customer>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="display:inline-block"><h2>Movie List</h2></div>
+<div style="float:right;display:inline-block;margin-top:10px">
+
+    @Html.ActionLink("New +", "New", "Customer", null, new { @class = "btn btn-success" })
+    </div>
+
+    @if (!Model.Any())
+    {
+        <p>No Customer found!!!</p>
+
+    }
+    else
+    {
+        <table class="table table-bordered table-striped" id="cust-table">
+            <thead>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Discount Rate</th>
+                    <th>Membership Type</th>
+                    <th>Date Of Birth</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@Html.ActionLink(item.Name, "Details", "Customer", new { id = item.Id }, null)</td>
+                    <td>@item.MembershipType.DiscountRate</td>
+                    <td>@item.MembershipType.Name</td>
+                    <td>@item.DOB.ToShortDateString()</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-primary" })
+                    </td>
+                    <td>
+                        <button data-customer-id="@item.Id" class="btn btn-danger js-delete">Delete</button>
+                        @*@Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-danger" })*@
+                    </td>
+                </tr>
+
+                }
+
+            </tbody>
+        </table>
+
+    }
+    @section scripts{
+        <script>$(document).ready(function () {
+    $('#cust-table').on('click','.js-delete', function(){
+        let btn = $(this)
+                    if (confirm("Are you sure")) {
+                        $.ajax({
+                            url: '/api/customerapi/' + $(this).attr('data-customer-id'),
+                            method: 'DELETE',
+                            success: function(){
+                                //console.log("Delete Success")
+                                btn.parents('tr').remove()
+                            }
+                        })
+                    }
+
+                })
+            })
+        </script>
+        }

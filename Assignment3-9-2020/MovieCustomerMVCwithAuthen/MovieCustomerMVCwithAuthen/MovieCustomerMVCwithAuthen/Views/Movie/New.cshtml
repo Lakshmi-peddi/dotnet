@@ -1,0 +1,44 @@
+﻿@model MovieCustomerMVCwithAuthen.ViewModel.NewMovieViewModel
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>New Movie</h2>
+@using (Html.BeginForm("Save", "Movie"))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.MovieName)
+
+        @Html.TextBoxFor(m => m.MovieName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.MovieName)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.ReleaseDate)
+
+        @Html.TextBoxFor(m => m.ReleaseDate, "{0:dd MM yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.ReleaseDate)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.GenreId)
+        @Html.DropDownListFor(m => m.GenreId, new SelectList(Model.Genres, "Id", "GenreName"), " ", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.GenreId)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.InStock)
+
+        @Html.TextBoxFor(m => m.InStock, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.InStock)
+
+    </div>
+    @Html.HiddenFor(m => m.Id)
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-primary">Save</button>
+    <button type="reset" class="btn btn-danger">Cancel</button>
+}
+@section scripts
+    {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

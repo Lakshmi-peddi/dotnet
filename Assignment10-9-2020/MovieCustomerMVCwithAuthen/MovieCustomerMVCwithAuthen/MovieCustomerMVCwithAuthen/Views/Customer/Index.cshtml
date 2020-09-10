@@ -1,0 +1,69 @@
+﻿@model IEnumerable<MovieCustomerMVCwithAuthen.Models.Customer>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div style="display:inline-block"><h2>Customer List</h2></div>
+<div style="float:right;display:inline-block;margin-top:10px">
+
+    @Html.ActionLink("New +", "New", "Customer", null, new { @class = "btn btn-success" })
+</div>
+    @if (!Model.Any())
+    {
+        <p>No cust found</p>
+    }
+    else
+    {
+        <table id="custTable" class="table table-bordered table-condensed table-striped">
+            <thead>
+                <tr>
+                    <td>Customer Name</td>
+                    <td>Discount Rate</td>
+                    <td>DOB of Customer</td>
+                    <td>Edit Customer</td>
+                    <td>Delete Customer</td>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    @foreach (var customer in Model)
+                    {
+                    <tr>
+
+                        <td>@Html.ActionLink(customer.Name, "Details", "Customer", new { id = customer.Id }, null)</td>
+                        <td>@customer.MembershipType.DiscountRate%</td>
+                        <td>@customer.DOB.ToShortDateString()</td>
+                        <td>@Html.ActionLink("Edit", "Edit", new { id = customer.Id }, new { @class = "btn btn-success" })</td>
+                        <td> <button data-customer-id="@customer.Id" class="btn btn-danger js-delete">Delete</button></td>
+
+                    </tr>
+                }
+
+                </tbody>
+
+            </table>
+        }
+    @section scripts
+    {
+        <script>
+            $(document).ready(function () {
+                $('#custTable').on('click', '.js-delete', function () {
+                    let btn = $(this)
+                    if (confirm("Are you sure you want to delete this customer?")) {
+                        $.ajax({
+                            url: '/api/Customer/' + $(this).attr('data-customer-id'),
+                            method: 'DELETE',
+                            success: function () {
+                                //console.log("Delete Success....")
+                                btn.parents('tr').remove()
+                            }
+                        })
+                    }
+                })
+            })
+        </script>
+    }
+

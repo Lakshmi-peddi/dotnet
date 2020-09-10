@@ -1,0 +1,4 @@
+https://localhost:44335/
+
+App Id:346258926568441
+App Secret:d5b0958709cfb3fda3f630768cd97229
